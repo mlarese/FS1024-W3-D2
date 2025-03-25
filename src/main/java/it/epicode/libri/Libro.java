@@ -17,6 +17,9 @@ public class Libro {
     @Column(length = 50)
     private String autore;
 
+    @Enumerated(EnumType.STRING)
+    private CategoriaEnum categoria;
+
     private int annoPubblicazione;
 
 
