@@ -1,9 +1,9 @@
-package it.epicode.libri;
+package it.epicode.libri.test;
 
+import it.epicode.libri.Libro;
 import jakarta.persistence.EntityManager;
 import jakarta.persistence.EntityManagerFactory;
 import jakarta.persistence.Persistence;
-import jakarta.persistence.PersistenceContext;
 
 public class MainInsertLibro {
     public static void main(String[] args) {
