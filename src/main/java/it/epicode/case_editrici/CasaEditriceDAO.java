@@ -41,7 +41,7 @@ public class CasaEditriceDAO {
     }
 
     public void deleteNoTx(Long id) {
-        CasaEditrice ce = find(Cid);
+        CasaEditrice ce = find(id);
         em.remove(ce);
     }
 }
